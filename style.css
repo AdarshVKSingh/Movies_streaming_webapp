@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    height:8vh;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: cadetblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10vw;
+  }
+  .active{
+   border: 1px solid red;
+   border-radius: 5px;
+   color: white;
+   background-color: orange;
+  }
+  li a:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .logo{
+      background-image: url("./img/logo.PNG");
+      width: 7vw;
+      height: 7vh;
+      text-align: center;
+      font-size: 25px;
+      margin-left: 7vw;
+      border: 2px solid black;
+      border-radius: 5px;
+      box-shadow: 2px 2px;
+      color: blue;
+      padding-top: 5px;
+      background-size: cover;
+  }
+
+
+ #carouselExampleCaptions{
+     margin: 0;
+ }
+
+.drop{
+    height: 5vh;
+    position: relative;
+   display: inline-block;
+   width: 10.51vw;
+   text-align: center;
+    font-size: large;
+    margin-left: 10vw;
+    background-color: yellow;
+}
+.dropbtn{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.dropbtn:hover{
+    background-color: yellow;
+}
+.dropdown-content{
+    display: none;
+    
+  position: absolute;
+  background-color: yellow;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .drop:hover .dropdown-content {display: block;}
+  .drop:hover .dropbtn {background-color: #3e8e41;}  
+#searchbar{
+    height: 5vh;
+    width: 50vw;
+    font-size: large;
+    margin-left: 10vw;
+    border-radius: 10px;
+    background-color: orange;
+}
+#searchbar:hover{
+    background-color: yellow ;
+}
+
+.drop:hover{
+    background-color:yellow ;
+}
+
+
+.content{
+    background-color: black;
+    padding-top: 5vh;
+    /* height: 100%; */
+}
+
+.card{
+    height: 50vh;
+    width: 22vw;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: inline-block;
+    margin: 5vh 5vw;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    height: 35vh;
+    width: 22vw;
+    display: inline-block;
+
+}
+.card-body{
+    height: 15vh;
+    width: 22vh;
+    display: inline-block;
+    
+}
+
+.card_div{
+    display: inline-block;
+}
+.card a:hover{
+    transform: scale(1.1);
+}
+
+.hidden{
+    display: none;
+}
